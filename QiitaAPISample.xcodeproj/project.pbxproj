@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D98E72020A87A9900A8F0CD /* ArticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D98E71F20A87A9900A8F0CD /* ArticleTests.swift */; };
 		5D9B48171C7850EB006894C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B48161C7850EB006894C8 /* AppDelegate.swift */; };
 		5D9B48191C7850EB006894C8 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B48181C7850EB006894C8 /* ArticleListViewController.swift */; };
 		5D9B481C1C7850EB006894C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B481A1C7850EB006894C8 /* Main.storyboard */; };
@@ -14,11 +15,7 @@
 		5D9B482C1C7850EB006894C8 /* QiitaAPISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B482B1C7850EB006894C8 /* QiitaAPISampleTests.swift */; };
 		5D9B48371C7850EB006894C8 /* QiitaAPISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B48361C7850EB006894C8 /* QiitaAPISampleUITests.swift */; };
 		5DB135B01C789F4C0044DE02 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB135AF1C789F4C0044DE02 /* APIClient.swift */; };
-		5DB135B11C789F4C0044DE02 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB135AF1C789F4C0044DE02 /* APIClient.swift */; };
-		5DBFCEBE1C8C30D000F75F99 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBFCEBD1C8C30D000F75F99 /* Item.swift */; };
-		9AC799D5AC90FD5BA6D8CF0D /* Pods_QiitaAPISampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69F3DA63EB6D379EBA49F6D /* Pods_QiitaAPISampleTests.framework */; };
-		D4ED5357FFCA068194740BF3 /* Pods_QiitaAPISample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC2596B34135E0FBBD96069 /* Pods_QiitaAPISample.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		F53B1E0D11F378A20055DE79 /* Pods_QiitaAPISampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438B2C569A3478C9E684682F /* Pods_QiitaAPISampleUITests.framework */; };
+		C784B54820AD66E6004C9FAF /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784B54720AD66E6004C9FAF /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08F643EC84E56E6211415A7F /* Pods-QiitaAPISampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaAPISampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaAPISampleTests/Pods-QiitaAPISampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		438B2C569A3478C9E684682F /* Pods_QiitaAPISampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitaAPISampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BFB30859A5720FBF28F3B5B /* Pods-QiitaAPISampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaAPISampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaAPISampleTests/Pods-QiitaAPISampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D98E71F20A87A9900A8F0CD /* ArticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTests.swift; sourceTree = "<group>"; };
 		5D9B48131C7850EB006894C8 /* QiitaAPISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaAPISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9B48161C7850EB006894C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D9B48181C7850EB006894C8 /* ArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
@@ -55,13 +50,7 @@
 		5D9B48361C7850EB006894C8 /* QiitaAPISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaAPISampleUITests.swift; sourceTree = "<group>"; };
 		5D9B48381C7850EB006894C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DB135AF1C789F4C0044DE02 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		5DBFCEBD1C8C30D000F75F99 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		69ABD6040AA058139B752884 /* Pods-QiitaAPISampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaAPISampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaAPISampleUITests/Pods-QiitaAPISampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7BC2596B34135E0FBBD96069 /* Pods_QiitaAPISample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitaAPISample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83046AFCD385B2D30BE4615D /* Pods-QiitaAPISampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaAPISampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaAPISampleUITests/Pods-QiitaAPISampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B69F3DA63EB6D379EBA49F6D /* Pods_QiitaAPISampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitaAPISampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA399A8C36DF0BD825C2064E /* Pods-QiitaAPISample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaAPISample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaAPISample/Pods-QiitaAPISample.debug.xcconfig"; sourceTree = "<group>"; };
-		F18F73ACBA9AACBAE65D89CC /* Pods-QiitaAPISample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaAPISample.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaAPISample/Pods-QiitaAPISample.release.xcconfig"; sourceTree = "<group>"; };
+		C784B54720AD66E6004C9FAF /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4ED5357FFCA068194740BF3 /* Pods_QiitaAPISample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC799D5AC90FD5BA6D8CF0D /* Pods_QiitaAPISampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,24 +72,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53B1E0D11F378A20055DE79 /* Pods_QiitaAPISampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09510199E03112F720E3C0D4 /* Pods */ = {
+		5D98E71C20A8717C00A8F0CD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CA399A8C36DF0BD825C2064E /* Pods-QiitaAPISample.debug.xcconfig */,
-				F18F73ACBA9AACBAE65D89CC /* Pods-QiitaAPISample.release.xcconfig */,
-				08F643EC84E56E6211415A7F /* Pods-QiitaAPISampleTests.debug.xcconfig */,
-				4BFB30859A5720FBF28F3B5B /* Pods-QiitaAPISampleTests.release.xcconfig */,
-				83046AFCD385B2D30BE4615D /* Pods-QiitaAPISampleUITests.debug.xcconfig */,
-				69ABD6040AA058139B752884 /* Pods-QiitaAPISampleUITests.release.xcconfig */,
+				5DB135AF1C789F4C0044DE02 /* APIClient.swift */,
+				C784B54720AD66E6004C9FAF /* Article.swift */,
 			);
-			name = Pods;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D98E71E20A8719500A8F0CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D9B481A1C7850EB006894C8 /* Main.storyboard */,
+				5D9B48181C7850EB006894C8 /* ArticleListViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5D9B480A1C7850EB006894C8 = {
@@ -112,8 +103,6 @@
 				5D9B482A1C7850EB006894C8 /* QiitaAPISampleTests */,
 				5D9B48351C7850EB006894C8 /* QiitaAPISampleUITests */,
 				5D9B48141C7850EB006894C8 /* Products */,
-				09510199E03112F720E3C0D4 /* Pods */,
-				BD2EED1EC377801F16488366 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,12 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				5D9B48161C7850EB006894C8 /* AppDelegate.swift */,
-				5D9B48181C7850EB006894C8 /* ArticleListViewController.swift */,
-				5D9B481A1C7850EB006894C8 /* Main.storyboard */,
+				5D98E71C20A8717C00A8F0CD /* Models */,
+				5D98E71E20A8719500A8F0CD /* Views */,
 				5D9B481D1C7850EB006894C8 /* Assets.xcassets */,
 				5D9B48221C7850EB006894C8 /* Info.plist */,
-				5DB135AF1C789F4C0044DE02 /* APIClient.swift */,
-				5DBFCEBD1C8C30D000F75F99 /* Item.swift */,
 			);
 			path = QiitaAPISample;
 			sourceTree = "<group>";
@@ -146,6 +133,7 @@
 			children = (
 				5D9B482B1C7850EB006894C8 /* QiitaAPISampleTests.swift */,
 				5D9B482D1C7850EB006894C8 /* Info.plist */,
+				5D98E71F20A87A9900A8F0CD /* ArticleTests.swift */,
 			);
 			path = QiitaAPISampleTests;
 			sourceTree = "<group>";
@@ -159,16 +147,6 @@
 			path = QiitaAPISampleUITests;
 			sourceTree = "<group>";
 		};
-		BD2EED1EC377801F16488366 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7BC2596B34135E0FBBD96069 /* Pods_QiitaAPISample.framework */,
-				B69F3DA63EB6D379EBA49F6D /* Pods_QiitaAPISampleTests.framework */,
-				438B2C569A3478C9E684682F /* Pods_QiitaAPISampleUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,12 +154,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D9B483B1C7850EB006894C8 /* Build configuration list for PBXNativeTarget "QiitaAPISample" */;
 			buildPhases = (
-				CD32E512ACE03FF19DE0B2DD /* [CP] Check Pods Manifest.lock */,
 				5D9B480F1C7850EB006894C8 /* Sources */,
 				5D9B48101C7850EB006894C8 /* Frameworks */,
 				5D9B48111C7850EB006894C8 /* Resources */,
-				075CA6A7D5B3CE9987F7EFC9 /* [CP] Embed Pods Frameworks */,
-				2B72398A4564958944CD8759 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,12 +171,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D9B483E1C7850EB006894C8 /* Build configuration list for PBXNativeTarget "QiitaAPISampleTests" */;
 			buildPhases = (
-				91ADB1E507F80AFF986B6805 /* [CP] Check Pods Manifest.lock */,
 				5D9B48231C7850EB006894C8 /* Sources */,
 				5D9B48241C7850EB006894C8 /* Frameworks */,
 				5D9B48251C7850EB006894C8 /* Resources */,
-				16CCB02DCAD140E02827561E /* [CP] Embed Pods Frameworks */,
-				F0632076D692F5C7A68C43ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,12 +189,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D9B48411C7850EB006894C8 /* Build configuration list for PBXNativeTarget "QiitaAPISampleUITests" */;
 			buildPhases = (
-				6A275DF957F54A2EA4D06912 /* [CP] Check Pods Manifest.lock */,
 				5D9B482E1C7850EB006894C8 /* Sources */,
 				5D9B482F1C7850EB006894C8 /* Frameworks */,
 				5D9B48301C7850EB006894C8 /* Resources */,
-				B875F587DDDB5DF1E2A3F8F4 /* [CP] Embed Pods Frameworks */,
-				0671DD05E5551B845667F5A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,7 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = macneko.leno;
 				TargetAttributes = {
 					5D9B48121C7850EB006894C8 = {
@@ -307,165 +276,13 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0671DD05E5551B845667F5A3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiitaAPISampleUITests/Pods-QiitaAPISampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		075CA6A7D5B3CE9987F7EFC9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QiitaAPISample/Pods-QiitaAPISample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiitaAPISample/Pods-QiitaAPISample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		16CCB02DCAD140E02827561E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiitaAPISampleTests/Pods-QiitaAPISampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2B72398A4564958944CD8759 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiitaAPISample/Pods-QiitaAPISample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A275DF957F54A2EA4D06912 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QiitaAPISampleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91ADB1E507F80AFF986B6805 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QiitaAPISampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B875F587DDDB5DF1E2A3F8F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiitaAPISampleUITests/Pods-QiitaAPISampleUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD32E512ACE03FF19DE0B2DD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QiitaAPISample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0632076D692F5C7A68C43ED /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiitaAPISampleTests/Pods-QiitaAPISampleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		5D9B480F1C7850EB006894C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5D9B48191C7850EB006894C8 /* ArticleListViewController.swift in Sources */,
-				5DBFCEBE1C8C30D000F75F99 /* Item.swift in Sources */,
+				C784B54820AD66E6004C9FAF /* Article.swift in Sources */,
 				5D9B48171C7850EB006894C8 /* AppDelegate.swift in Sources */,
 				5DB135B01C789F4C0044DE02 /* APIClient.swift in Sources */,
 			);
@@ -476,7 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D9B482C1C7850EB006894C8 /* QiitaAPISampleTests.swift in Sources */,
-				5DB135B11C789F4C0044DE02 /* APIClient.swift in Sources */,
+				5D98E72020A87A9900A8F0CD /* ArticleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,13 +340,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -568,13 +395,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -593,6 +430,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -600,7 +438,6 @@
 		};
 		5D9B483C1C7850EB006894C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA399A8C36DF0BD825C2064E /* Pods-QiitaAPISample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -617,7 +454,6 @@
 		};
 		5D9B483D1C7850EB006894C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F18F73ACBA9AACBAE65D89CC /* Pods-QiitaAPISample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -634,7 +470,6 @@
 		};
 		5D9B483F1C7850EB006894C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08F643EC84E56E6211415A7F /* Pods-QiitaAPISampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QiitaAPISampleTests/Info.plist;
@@ -648,7 +483,6 @@
 		};
 		5D9B48401C7850EB006894C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BFB30859A5720FBF28F3B5B /* Pods-QiitaAPISampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QiitaAPISampleTests/Info.plist;
@@ -662,7 +496,6 @@
 		};
 		5D9B48421C7850EB006894C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83046AFCD385B2D30BE4615D /* Pods-QiitaAPISampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = QiitaAPISampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -676,7 +509,6 @@
 		};
 		5D9B48431C7850EB006894C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69ABD6040AA058139B752884 /* Pods-QiitaAPISampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = QiitaAPISampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

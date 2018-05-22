@@ -8,41 +8,43 @@
 
 import UIKit
 
-class ArticleListViewController: UIViewController, UITableViewDataSource {
+class ArticleListViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    var items: [Item] = []
-    let client = APIClient()
+    var articles: [Article] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "新着記事"
         tableView.dataSource = self
 
-        client.getAllItems() { resultItems in
-            self.items = resultItems
-            self.tableView.reloadData()
+        APIClient.fetchArticle { (articles) in
+            self.articles = articles
+            DispatchQueue.main.sync {
+                self.tableView.reloadData()
+            }
         }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+}
 
+extension ArticleListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+        return articles.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
-        let item = items[indexPath.row]
-        if let title = item.title {
+        let article = articles[indexPath.row]
+        if let title = article.title {
             cell.textLabel?.text = title
         }
-        if let userId = item.userId {
+        if let userId = article.userId {
             cell.detailTextLabel?.text = userId
         }
         return cell
     }
 }
-
